@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Porcentagem</h1>
+    <p class="caminho"></p>
+    <p class="conta"></p>
+    <p class="res"></p>
+
+    <script>
+        let a,b
+        while(true){
+            a = Number(prompt("Digite o número total: "))
+            b = Number(prompt("Digite a porcentagem (%): "))
+
+            if (a === null || b === null) {
+                alert("Por favor, insira valores válidos para ambos os números.");
+                continue;
+            }
+            else if (isNaN(a) || isNaN(b)) {
+                alert("Por favor, insira apenas valores numéricos.");
+                continue;
+            } 
+            else {
+                break;
+            }
+        }
+
+        let porcentagem = (a * b) / 100 // Porcentagem
+        let valorPag = a - porcentagem // Valor a pagar
+        document.querySelector('.caminho').innerText = `O número total é ${a} e a porcentagem é ${b}%`
+        document.querySelector('.conta').innerText = `${b}% de ${a} é ${porcentagem}`
+        document.querySelector('.res').innerText = `O valor a pagar é ${valorPag}`
+        console.log(`O número total é ${a} e a porcentagem é ${b}%`);
+        console.log(`${b}% de ${a} é ${porcentagem}`);
+        console.log(`O valor a pagar é ${valorPag}`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Subtração</title>
+</head>
+<body>
+    <h1 >Subtração de dois números</h1>
+    <p class="caminho" ></p>
+    <p class="conta" ></p>
+    <script>
+        // inicializar variáveis fora do loop
+        let a, b;
+        while(true) {
+            // Solicitar ao usuário dois números
+            a = prompt("Digite o 1° número: ")
+            b = prompt("Digite o 2° número: ")
+            // Validar entrada do usuário para ver se não está vazio ou nulo
+            if (a === null || b === null || a.trim() === "" || b.trim() === "") {
+                alert("Por favor, insira valores válidos para ambos os números.");
+                continue;
+            }
+            // Verificar se os valores são numéricos
+            else if(isNaN(a) || isNaN(b)) {
+                alert("Por favor, insira apenas valores numéricos.");
+                continue;
+            }
+            // parar o loop se as entradas forem válidas
+            else {
+                break;
+            }
+        }
+
+
+        let subtracao = Number(a) - Number(b) // Subtração
+        // Atualizar o conteúdo dos parágrafos com os resultados
+        document.querySelector('.caminho').innerText = `Os numeros escolhidos pelo usuário foram ${a} e ${b}`
+        document.querySelector('.conta').innerText = `A subtração entre ${a} - ${b} = ${subtracao}`
+
+        // Exibir os resultados no console
+        console.log(`Os numeros escolhidos pelo usuário foram ${a} e ${b}`);
+        console.log("Subtração: " + subtracao);
+
+    </script>
+    
+</body>
+</html>

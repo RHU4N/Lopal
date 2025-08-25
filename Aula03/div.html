@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Divisão</h1>
+    <p class="caminho"></p>
+    <p class="conta"></p>
+
+    <script>
+        let a,b
+        while(true){
+            a = Number(prompt("Digite o 1° número: "))
+            b = Number(prompt("Digite o 2° número: "))
+            if(a === null || b === null){
+                alert("Por favor, insira valores válidos para ambos os números.")
+                continue
+            }
+            else if(b === 0){
+                alert("Divisão por zero não é permitida.")
+                continue
+            }
+            else if(isNaN(a) || isNaN(b)){
+                alert("Por favor, insira apenas valores numéricos.")
+                continue
+            }
+            else {
+                break
+            }
+        }
+        let divisao = a / b // Divisão
+        document.querySelector('.caminho').innerText = `Os numeros escolhidos pelo usuário foram ${a} e ${b}`
+        document.querySelector('.conta').innerText = `A divisão entre ${a} / ${b} = ${divisao}
+        `
+        console.log(`Os numeros escolhidos pelo usuário foram ${a} e ${b}`);
+        console.log("Divisão: " + divisao);
+    </script>
+</body>
+</html>
