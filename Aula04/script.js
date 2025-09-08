@@ -66,7 +66,7 @@ let entrada = 35
 idade = Number(idade)
 if (idade < 12) {
     alert('Você paga meia entrada')
-    alert('O valor da entrada é: ' + entrada + "\nporem você paga: " + (entrada / 2))
+    alert('O valor da entrada é: R$' + entrada + "\nporem você paga: R$" + (entrada / 2))
 } else {
     alert('Você paga entrada inteira')
     alert('O valor da entrada é: ' + entrada)
