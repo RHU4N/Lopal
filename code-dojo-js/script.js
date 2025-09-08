@@ -17,8 +17,8 @@
 // }
 
 // Soma simples
-let a = Number(prompt("Digite o primeiro valor")), b = Number(prompt("Digite o segundo valor")), resultado = a + b
-console.log(resultado)
+// let a = Number(prompt("Digite o primeiro valor")), b = Number(prompt("Digite o segundo valor")), resultado = a + b
+// console.log(resultado)
 
 // media escola 
 
@@ -142,14 +142,23 @@ console.log(resultado)
 // let n2 = Number(prompt("digite o segundo valor"))
 // let ope = prompt("escolha a operação: \n + mais \n - menos \n * multiplicação \n / divisão")
 
-// if(ope == "+"){
-//     console.log(n1 + n2)
-// } else if (ope == "-"){
-//     console.log(n1 - n2)
-// }else if(ope == "*"){
-//     console.log(n1 * n2)
-// }else if(ope == "/"){
-//     console.log(n1 / n2)
+// switch (ope) {
+//     case "+":
+//         console.log(n1 + n2)
+//         break;
+//     case "-":
+//         console.log(n1 - n2)
+//         break;
+//     case "*":
+//         console.log(n1 * n2)
+//         break;
+//     case "/":
+//         console.log(n1 / n2)
+//         break;
+
+//     default:
+//         console.log("Operação inválida")
+//         break;
 // }
 
 // Boas vindas personalizadas
