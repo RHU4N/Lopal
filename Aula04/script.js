@@ -60,14 +60,22 @@
 // }
 
 //solicite idade ao usuário, caso seja menor de 2 anos ele paga meia entrada
-let idade = prompt('Digite sua idade: ')
-idade = Number(idade)
-let entrada = 35
-idade = Number(idade)
-if (idade < 12) {
-    alert('Você paga meia entrada')
-    alert('O valor da entrada é: R$' + entrada + "\nporem você paga: R$" + (entrada / 2))
-} else {
-    alert('Você paga entrada inteira')
-    alert('O valor da entrada é: ' + entrada)
-}
+// let idade = prompt('Digite sua idade: ')
+// idade = Number(idade)
+// let entrada = 35
+// idade = Number(idade)
+// if (idade < 12) {
+//     alert('Você paga meia entrada')
+//     alert('O valor da entrada é: R$' + entrada + "\nporem você paga: R$" + (entrada / 2))
+// } else {
+//     alert('Você paga entrada inteira')
+//     alert('O valor da entrada é: ' + entrada)
+// }
+
+// toFixed(2) -> 2 casas decimais
+// toFixed(3) -> 3 casas decimais
+// toFixed(0) -> 0 casas decimais
+// let num = 2.34567
+// console.log(num.toFixed(2))
+// console.log(num.toFixed(3))
+// console.log(num.toFixed(0))
