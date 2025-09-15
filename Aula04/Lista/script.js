@@ -65,7 +65,7 @@
 //8°calculadora simples
 // let num1 = Number(prompt("Digite o primeiro número: "))
 // let num2 = Number(prompt("Digite o segundo número: "))
-// let operacao = prompt("Digite a operação (+, -, *, /): ")
+// let operacao = prompt("Digite a operação (+, -, *, /): "))
 // switch (operacao) {
 //     case "+":
 //         alert(`O resultado da soma é: ${num1 + num2}`)
@@ -131,7 +131,7 @@
 //     alert("O número é zero")
 // }
 
-//13°Classificação por idade
+//13°Conversão de temperatura
 // let temp = Number(prompt("Digite a temperatura em °C: "))
 // if (temp <= 0) {
 //     alert("Muito frio")
@@ -156,7 +156,7 @@
 // }
 
 //15° validação login
-// let username = prompt("Digite seu nome de usuário: ")
+// let username = prompt("Digite seu nome de usuário: ").trim()
 // if (username === "admin") {
 //     let password = prompt("Digite sua senha: ")
 //     if (password === "123") {
@@ -168,7 +168,7 @@
 //     alert("Usuário incorreto.")
 // }
 
-// let username = prompt("Digite seu nome de usuário: ")
+// let username = prompt("Digite seu nome de usuário: ").trim()
 // let password = prompt("Digite sua senha: ")
 
 // if (username === "admin") {
@@ -267,7 +267,7 @@
 
 //19°Categoria de IMC
 // let peso = Number(prompt("Digite seu peso em kg: "))
-// let altura = Number(prompt("Digite sua altura em metros: "))
+// let altura = Number(prompt("Digite sua altura em metros: ").replace(",","."))
 // let imc = peso / (altura * altura)
 
 // if(imc < 18.5){
@@ -307,4 +307,122 @@
 // }
 // else{
 //     alert("Você errou! o numero secreto é " + numSecreto)
+// }
+
+//22 Dia util ou fim de semana
+// let dia = Number(prompt("Digite um número de 1 a 7 e te direi se é dia um dia util da semana ou fim de semana:\n1-Domingo \n2-Segunda-feira \n3-Terça-feira \n4-Quarta-feira \n5-Quinta-feira \n6-Sexta-feira \n7-Sábado"))
+// if(dia >=2 && dia <=5){
+//     alert("Dia útil")
+// }else if(dia === 6 || dia === 1){
+//     alert("Fim de semana")
+// }else{
+//     alert("Número inválido")
+// }
+
+// 23 preço com desconto
+// let preco = Number(prompt("Digite o preço do produto: "))
+// let formaPag = Number(prompt("Digite a forma de pagamento:\n1 - À vista em dinheiro ou PIX (10% de desconto)\n2 - À vista no cartão (5% de desconto)\n3 - Em Parcelado (preço normal)"))
+
+// if(formaPag === 1){
+//     preco -= preco * 10/100
+//     alert("Preço com desconto: " + preco)
+// }else if(formaPag === 2){
+//     preco -= preco*5/100
+//     alert("Preço com desconto: " + preco)
+// }else if(formaPag === 3){
+//     alert("Preço normal: " + preco)
+// }else{
+//     alert("Forma de pagamento inválida")
+// }
+
+//24 Faixa de velocidade
+// let vel = Number(prompt("Digite a velocidade do carro em km/h: "))
+// if(vel <= 60){
+//     alert("Velocidade dentro do limite.")
+// }else if(vel > 60 && vel <= 80){
+//     alert("Velocidade de atenção.")
+// }else if(vel>80){
+//     alert("Multado por excesso de velocidade.")
+// }
+
+// 25 Eleitor Obrigatório
+// let idade = Number(prompt("Digite sua idade: "))
+// if(idade < 16){
+//     alert("Não eleitor")
+// }else if(idade >= 16 && idade < 18 || idade >= 70){
+//     alert("Eleitor facultativo")
+// }else if(idade >= 18 && idade < 70){
+//     alert("Eleitor obrigatório")
+// }
+
+// 26 Categoria prod
+// let categoria = Number(prompt("Digite a categoria do produto:\n1 - Alimento\n2 - Vestuario\n3 - Eletronico"))
+// if(categoria === 1){
+//     alert("Categoria: Alimento")
+// }else if(categoria === 2){
+//     alert("Categoria: Vestuario")
+// }else if(categoria === 3){
+//     alert("Categoria: Eletronico")
+// }
+// else{
+//     alert("Categoria inválida")
+// }
+
+// 27 Preco frete
+// let dist = Number(prompt("Digite a distância em km para o frete: "))
+// if(dist <= 50){
+//     alert("Frete R$10,00")
+// }else if(dist > 50 && dist <= 100){
+//     alert("Frete R$20,00")
+// }else if(dist > 100){
+//     alert("Frete R$50,00")
+// }
+// else{
+//     alert("Frete grátis")
+// }
+
+// 28 calculadora de média
+// let n1 = Number(prompt("Digite a primeira nota: "))
+// let n2 = Number(prompt("Digite a segunda nota: "))
+// let n3 = Number(prompt("Digite a terceira nota: "))
+// let media = (n1 + n2 + n3) / 3
+// if(media >= 7){
+//     alert("Aprovado")
+// }else if(media >= 5 && media < 7){
+//     alert("Recuperação")
+// }else if(media < 5){
+//     alert("Reprovado")
+// }
+
+// 29 Loja de lanches
+// let lanche = prompt("Digite o lanche desejado:\n1 - Hambúrguer \n2 - Pizza \n3 - Salada ")
+// if(lanche == "1"){
+//     alert("Você escolheu Hambúrguer")
+// }else if(lanche == "2"){
+//     alert("Você escolheu Pizza")
+// }else if(lanche == "3"){
+//     alert("Você escolheu Salada")
+// }else{
+//     alert("Opção inválida")
+// }
+
+//30 Jogo pedra, papel e tesoura
+// let jogador1 = prompt("Jogador1 - Escolha: \n1-pedra \n2-papel  \n3-tesoura ").toLowerCase()
+// let jogador2 = Math.random().toFixed(0) * (3 - 1) + 1
+// let jogador2escolha = ""
+// if(jogador2 === 1){
+//     jogador2escolha = "pedra"
+// }else if(jogador2 === 2){
+//     jogador2escolha = "papel"
+// }else if(jogador2 === 3){
+//     jogador2escolha = "tesoura"
+// }
+// if(jogador1 === "1" || jogador1 === "2" || jogador1 === "3"){
+//     if((jogador1 === "1" && jogador2 === 3) || (jogador1 === "2" && jogador2 === 1) || (jogador1 === "3" && jogador2 === 2)){
+//         alert("Jogador 1 venceu! Jogador 2 escolheu: " + jogador2escolha)
+//     }else if((jogador1 === "1" && jogador2 === 2) || (jogador1 === "2" && jogador2 === 3) || (jogador1 === "3" && jogador2 === 1)){
+//         alert("Jogador 2 venceu! Jogador 2 escolheu: " + jogador2escolha)
+//     }else{
+//         alert("Empate! Jogador 2 escolheu: " + jogador2escolha)
+//     }
 // }
