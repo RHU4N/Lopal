@@ -2,44 +2,44 @@
 // let dia = prompt("Digite um número de 1 a 7 para saber o dia da semana correspondente:");
 // switch(dia) {
 //     case '1':
-//         console.log("Domingo");
+//         alert("Domingo");
 //         break;
 //     case '2':
-//         console.log("Segunda-feira");
+//         alert("Segunda-feira");
 //         break;
 //     case '3':
-//         console.log("Terça-feira");
+//         alert("Terça-feira");
 //         break;
 //     case '4':
-//         console.log("Quarta-feira");
+//         alert("Quarta-feira");
 //         break;
 //     case '5':
-//         console.log("Quinta-feira");
+//         alert("Quinta-feira");
 //         break;
 //     case '6':
-//         console.log("Sexta-feira");
+//         alert("Sexta-feira");
 //         break;
 //     case '7':
-//         console.log("Sábado");
+//         alert("Sábado");
 //         break;
 //     default:
-//         console.log("Número inválido! Por favor, insira um número entre 1 e 7.");
+//         alert("Número inválido! Por favor, insira um número entre 1 e 7.");
 // }
 
 // 2- Cores
 // let cor = prompt("Digite o nome de uma cor (vermelho, azul, amarelo):").toLowerCase();
 // switch(cor) {
 //     case 'vermelho':
-//         console.log("A cor repesenta amor,raiva ,paixão");
+//         alert("A cor repesenta amor,raiva ,paixão");
 //         break;
 //     case 'azul':
-//         console.log("A cor repesenta tranquilidade, serenidade e harmonia.");
+//         alert("A cor repesenta tranquilidade, serenidade e harmonia.");
 //         break;
 //     case 'amarelo':
-//         console.log("A cor repesenta alegria, otimismo e energia.");
+//         alert("A cor repesenta alegria, otimismo e energia.");
 //         break;
 //     default:
-//         console.log("Cor inválida! Por favor, escolha entre vermelho, azul ou amarelo.");
+//         alert("Cor inválida! Por favor, escolha entre vermelho, azul ou amarelo.");
 //         break;
 // }
 
@@ -47,43 +47,43 @@
 // let mes = prompt("Digite o número do mês (1-12):");
 // switch(mes) {
 //     case '1':
-//         console.log("Janeiro");
+//         alert("Janeiro");
 //         break;
 //     case '2':
-//         console.log("Fevereiro");
+//         alert("Fevereiro");
 //         break;
 //     case '3':
-//         console.log("Março");
+//         alert("Março");
 //         break;
 //     case '4':
-//         console.log("Abril");
+//         alert("Abril");
 //         break;
 //     case '5':
-//         console.log("Maio");
+//         alert("Maio");
 //         break;
 //     case '6':
-//         console.log("Junho");
+//         alert("Junho");
 //         break;
 //     case '7':
-//         console.log("Julho");
+//         alert("Julho");
 //         break;
 //     case '8':
-//         console.log("Agosto");
+//         alert("Agosto");
 //         break;
 //     case '9':
-//         console.log("Setembro");
+//         alert("Setembro");
 //         break;
 //     case '10':
-//         console.log("Outubro");
+//         alert("Outubro");
 //         break;
 //     case '11':
-//         console.log("Novembro");
+//         alert("Novembro");
 //         break;
 //     case '12':
-//         console.log("Dezembro");
+//         alert("Dezembro");
 //         break;
 //     default:
-//         console.log("Número inválido! Por favor, insira um número entre 1 e 12.");
+//         alert("Número inválido! Por favor, insira um número entre 1 e 12.");
 //         break;
 // }
 
@@ -94,23 +94,23 @@
 
 // switch(operacao) {
 //     case '+':
-//         console.log(`Resultado: ${num1 + num2}`);
+//         alert(`Resultado: ${num1 + num2}`);
 //         break;
 //     case '-':
-//         console.log(`Resultado: ${num1 - num2}`);
+//         alert(`Resultado: ${num1 - num2}`);
 //         break;
 //     case '*':
-//         console.log(`Resultado: ${num1 * num2}`);
+//         alert(`Resultado: ${num1 * num2}`);
 //         break;
 //     case '/':
 //         if (num2 !== 0) {
-//             console.log(`Resultado: ${num1 / num2}`);
+//             alert(`Resultado: ${num1 / num2}`);
 //         } else {
-//             console.log("Erro: Divisão por zero não é permitida.");
+//             alert("Erro: Divisão por zero não é permitida.");
 //         }
 //         break;
 //     default:
-//         console.log("Operação inválida! Por favor, escolha entre +, -, * ou /.");
+//         alert("Operação inválida! Por favor, escolha entre +, -, * ou /.");
 //         break;
 // }
 
@@ -118,22 +118,22 @@
 // let nota = prompt("Digite a nota (A, B, C, D, F):").toUpperCase();
 // switch(nota) {
 //     case 'A':
-//         console.log("Excelente");
+//         alert("Excelente");
 //         break;
 //     case 'B':
-//         console.log("Bom");
+//         alert("Bom");
 //         break;
 //     case 'C':
-//         console.log("Regular");
+//         alert("Regular");
 //         break;
 //     case 'D':
-//         console.log("Ruim");
+//         alert("Ruim");
 //         break;
 //     case 'F':
-//         console.log("Reprovado");
+//         alert("Reprovado");
 //         break;
 //     default:
-//         console.log("Nota inválida! Por favor, insira uma nota entre A e F.");
+//         alert("Nota inválida! Por favor, insira uma nota entre A e F.");
 //         break;
 // }
 
@@ -141,16 +141,16 @@
 // let fruta = prompt("Digite o nome de uma fruta (maçã, banana, laranja):").toLowerCase();
 // switch(fruta) {
 //     case 'maçã':
-//         console.log("Maçã: R$ 2/kg.");
+//         alert("Maçã: R$ 2/kg.");
 //         break;
 //     case 'banana':
-//         console.log("Banana: R$ 5/kg.");
+//         alert("Banana: R$ 5/kg.");
 //         break;
 //     case 'laranja':
-//         console.log("Laranja: R$ 1.80/kg.");
+//         alert("Laranja: R$ 1.80/kg.");
 //         break;
 //     default:
-//         console.log("Produto não disponível.");
+//         alert("Produto não disponível.");
 //         break;
 // }
 
@@ -158,16 +158,16 @@
 // let turno = prompt("Digite o turno que você estuda (M-matutino, V-Vespertino, N-Noturno):").toUpperCase();
 // switch(turno) {
 //     case 'M':
-//         console.log("Matutino");
+//         alert("Matutino");
 //         break;
 //     case 'V':
-//         console.log("Vespertino");
+//         alert("Vespertino");
 //         break;
 //     case 'N':
-//         console.log("Noturno");
+//         alert("Noturno");
 //         break;
 //     default:
-//         console.log("Turno inválido! Por favor, insira M, V ou N.");
+//         alert("Turno inválido! Por favor, insira M, V ou N.");
 //         break;
 // }
 
@@ -175,19 +175,19 @@
 // let idade = Number(prompt("Digite sua idade:"));
 // switch(true) {
 //     case (idade >= 0 && idade <= 12):
-//         console.log("Criança");
+//         alert("Criança");
 //         break;
 //     case (idade >= 13 && idade <= 17):
-//         console.log("Adolescente");
+//         alert("Adolescente");
 //         break;
 //     case (idade >= 18 && idade <= 59):
-//         console.log("Adulto");
+//         alert("Adulto");
 //         break;
 //     case (idade >= 60):
-//         console.log("Idoso");
+//         alert("Idoso");
 //         break;
 //     default:
-//         console.log("Idade inválida!");
+//         alert("Idade inválida!");
 //         break;
 // }
 
@@ -195,19 +195,19 @@
 // let estacao = prompt("Digite o número da estação (1-4) para saber a estação do ano:");
 // switch(estacao) {
 //     case '1':
-//         console.log("Verão");
+//         alert("Verão");
 //         break;
 //     case '2':
-//         console.log("Outono");
+//         alert("Outono");
 //         break;
 //     case '3':
-//         console.log("Inverno");
+//         alert("Inverno");
 //         break;
 //     case '4':
-//         console.log("Primavera");
+//         alert("Primavera");
 //         break;
 //     default:
-//         console.log("Estação inválida! Por favor, insira um número entre 1 e 4.");
+//         alert("Estação inválida! Por favor, insira um número entre 1 e 4.");
 //         break;
 // }
 
@@ -215,21 +215,21 @@
 let prato = prompt("Digite o número do prato desejado (1-5)\n1- Pizza\n2- Hambúrguer\n3- Salada\n4- Massa\n5- Sopa:");
 switch(prato) {
     case '1':
-        console.log("Prato 1: Pizza");
+        alert("Prato 1: Pizza");
         break;
     case '2':
-        console.log("Prato 2: Hambúrguer");
+        alert("Prato 2: Hambúrguer");
         break;
     case '3':
-        console.log("Prato 3: Salada");
+        alert("Prato 3: Salada");
         break;
     case '4':
-        console.log("Prato 4: Massa");
+        alert("Prato 4: Massa");
         break;
     case '5':
-        console.log("Prato 5: Sopa");
+        alert("Prato 5: Sopa");
         break;
     default:
-        console.log("Prato inválido! Por favor, insira um número entre 1 e 5.");
+        alert("Prato inválido! Por favor, insira um número entre 1 e 5.");
         break;
 }
