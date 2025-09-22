@@ -407,22 +407,22 @@
 // }
 
 //30 Jogo pedra, papel e tesoura
-// let jogador1 = prompt("Jogador1 - Escolha: \n1-pedra \n2-papel  \n3-tesoura ").toLowerCase()
-// let jogador2 = Math.random().toFixed(0) * (3 - 1) + 1
-// let jogador2escolha = ""
-// if(jogador2 === 1){
-//     jogador2escolha = "pedra"
-// }else if(jogador2 === 2){
-//     jogador2escolha = "papel"
-// }else if(jogador2 === 3){
-//     jogador2escolha = "tesoura"
-// }
-// if(jogador1 === "1" || jogador1 === "2" || jogador1 === "3"){
-//     if((jogador1 === "1" && jogador2 === 3) || (jogador1 === "2" && jogador2 === 1) || (jogador1 === "3" && jogador2 === 2)){
-//         alert("Jogador 1 venceu! Jogador 2 escolheu: " + jogador2escolha)
-//     }else if((jogador1 === "1" && jogador2 === 2) || (jogador1 === "2" && jogador2 === 3) || (jogador1 === "3" && jogador2 === 1)){
-//         alert("Jogador 2 venceu! Jogador 2 escolheu: " + jogador2escolha)
-//     }else{
-//         alert("Empate! Jogador 2 escolheu: " + jogador2escolha)
-//     }
-// }
+let jogador1 = prompt("Jogador1 - Escolha: \n1-pedra \n2-papel  \n3-tesoura ").toLowerCase()
+let jogador2 = Math.random().toFixed(0) * (3 - 1) + 1
+let jogador2escolha = ""
+if(jogador2 === 1){
+    jogador2escolha = "pedra"
+}else if(jogador2 === 2){
+    jogador2escolha = "papel"
+}else if(jogador2 === 3){
+    jogador2escolha = "tesoura"
+}
+if(jogador1 === "1" || jogador1 === "2" || jogador1 === "3"){
+    if((jogador1 === "1" && jogador2 === 3) || (jogador1 === "2" && jogador2 === 1) || (jogador1 === "3" && jogador2 === 2)){
+        alert("Jogador 1 venceu! Jogador 2 escolheu: " + jogador2escolha)
+    }else if((jogador1 === "1" && jogador2 === 2) || (jogador1 === "2" && jogador2 === 3) || (jogador1 === "3" && jogador2 === 1)){
+        alert("Jogador 2 venceu! Jogador 2 escolheu: " + jogador2escolha)
+    }else{
+        alert("Empate! Jogador 2 escolheu: " + jogador2escolha)
+    }
+}
