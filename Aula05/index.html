@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWITCH</title>
+</head>
+<body>
+    <script>
+        // let fruta = "Laranja".toLowerCase();
+        // switch (fruta) {
+        //     case "maçã":
+        //         console.log("KG de maçã custa R$ 3,00.");
+        //         break;
+
+        //     case "laranja":
+        //         console.log("KG de laranja custa R$ 5,00.");
+        //         break;
+
+        //     default:
+        //         console.log("Essa fruta não está a venda.");
+        //         break;
+        // }
+        // let chave = prompt("Digite a chave: ")
+        // switch (chave) {
+        //     case "biolab":
+        //         console.log("Acesso concedido.");
+        //         break;
+        
+        //     default:
+        //         console.log("Acesso negado.");
+        //         break;
+        // }
+        // let pedir = prompt("Digite a opção desejada: \n 1 - Cardapio \n 2 - Pedido \n 3 - Status do pedido").trim();
+        // switch (pedir) {
+        //     case '1':
+        //         console.log("Cardapio");
+        //         break;
+        
+        //     case '2':
+        //         console.log("Pedido");
+        //         break;
+
+        //     case '3':
+        //         console.log("status do pedido");
+        //         break;
+
+        //     default:
+        //         console.log("Opção inválida");
+        //         break;
+        // }
+        // let nota;
+        // do {
+        //     nota = Number(prompt("Digite a nota: "));
+        //     if (nota > 10 || nota < 0 || isNaN(nota)) {
+        //         alert("Nota inválida, digite novamente.");
+        //     }
+        // } while (nota > 10 || nota < 0 || isNaN(nota));
+
+        // switch (true) {
+        //     case nota >= 7:
+        //         console.log("Aprovado");
+        //         break;
+        //     case nota >= 5:
+        //         console.log("Recuperação");
+        //         break;
+        //     default:
+        //         console.log("Reprovado");
+        //         break;
+        // }
+
+        // let nota = Number(prompt("Digite a nota: "));
+        // switch (nota) {
+        //     case 10:
+        //     case 9:
+        //     case 8:
+        //     case 7:
+        //         console.log("Aprovado");
+        //         break;
+        //     case 6:
+        //     case 5:
+        //         console.log("Recuperação");
+        //         break;
+        //     case 4:
+        //     case 3:
+        //     case 2:
+        //     case 1:
+        //     case 0:
+        //         console.log("Reprovado");
+        //         break;
+        //     default:
+        //         console.log("Nota inválida");
+        //         break;
+        // }
+
+        let animal = prompt("Digite o nome do animal: ").toLowerCase().trim();
+        switch (animal) {
+            case "cachorro", "gato", "coelho", "hamster", "porquinho-da-índia", "calopsita", "papagaio", "cabra", "ovelha", "vaca", "boi", "cavalo", "burro", "mula", "galinha", "pato", "ganso", "peru":
+                console.log("Esse animal irá para a Arca de Noé.");
+                break;
+            
+        
+            case "dinossuro", "dragão", "unicórnio", "fada", "sereia":
+            default:
+                console.log("Esse animal não irá para a Arca de Noé.");
+                break;
+        }
+    </script>
+</body>
+</html>
