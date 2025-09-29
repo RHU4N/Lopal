@@ -11,10 +11,22 @@
 //     count++;
 // }
 
-// console.log("\nContagem decrescente:");
 // count = 5;
 // while ( count >= 0) {
 //    console.log(count);
 //    count--;
 // }
+// console.log("Feliz ano novo!");
+
+count = 5;
+while ( count >= 0) {
+   if (count === 0){
+        console.log("Feliz ano novo!");
+   }
+   else {
+        console.log(count);
+    }
+    count--;
+}
+
 
