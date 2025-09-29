@@ -4,12 +4,12 @@
 //    condition++;
 // }
 
-console.log("Contagem crescente:");
-let count = 1;
-while (count <= 10) {
-    console.log(count);
-    count++;
-}
+// console.log("Contagem crescente:");
+// let count = 1;
+// while (count <= 10) {
+//     console.log(count);
+//     count++;
+// }
 
 // console.log("\nContagem decrescente:");
 // count = 5;
@@ -17,3 +17,4 @@ while (count <= 10) {
 //    console.log(count);
 //    count--;
 // }
+
