@@ -74,8 +74,21 @@
 //     count++;
 // }
 // console.log(`A soma dos números de 0 a 100 é: ${soma}`);
-let count = 30;
-while(count >= 0){
-    console.log(count);
-    count--;
-}
+// let count = 30;
+// while(count >= 0){
+//     console.log(count);
+//     count--;
+// }
+
+// let count = 0;
+// do {
+//     console.log(count);
+//     count++;
+// } while (count <= 5);
+
+let senhaC = '1234';
+let senhaU 
+do {
+     senhaU = prompt('Digite a senha: ');
+} while (senhaU != senhaC);
+alert('Senha correta!');
