@@ -1,26 +1,34 @@
-// //1. contagem simples
-// for(let count = 1; count <= 10; count++){
-//     console.log(count);
-// }
+//1. contagem simples
+function contagemSimples(){
+ for(let count = 1; count <= 10; count++){
+    console.log(count);
+ }
+}
 
 // //2. contagem regressiva
-// for(let count = 10; count >= 1; count--){
-//     console.log(count);
-// }
+function contagemRegressiva(){
+for(let count = 10; count >= 1; count--){
+    console.log(count);
+}
+}
 
 // //3. numeros pares de 1 a 20
-// for(let count = 1; count <= 20; count++){
-//     if(count % 2 === 0){
-//         console.log(count);
-//     }
-// }
+function numerosPares(){
+for(let count = 1; count <= 20; count++){
+    if(count % 2 === 0){
+        console.log(count);
+    }
+}
+}
 
 // //4. numeros impares de 1 a 20
-// for(let count = 1; count <= 20; count++){
-//     if(count % 2 !== 0){
-//         console.log(count);
-//     }
-// }
+function numerosImpares(){
+for(let count = 1; count <= 20; count++){
+    if(count % 2 !== 0){
+        console.log(count);
+    }
+}
+}
 
 // //5. tabuada de um numero
 // let num = 5;
@@ -97,3 +105,48 @@
 // }
 // console.log(`A palavra ${palavra} tem ${countVogais} vogais.`);
 
+//media notas
+// let soma = 0;
+// for (let i = 0; i <= 5; i++) {
+//    let nota = Number(prompt(`Digite a ${i + 1}°nota : `));
+//    soma += nota;
+// }
+// let media = soma / 5;
+// console.log(`A média das notas é: ${media}`);
+
+//16 Numeros dentro de array
+// let num = [5, 8, 12, 20, 25, 30];
+// for (let i = 0; i < num.length; i++) {
+//   console.log(num[i]);
+// }
+
+// 17. soma dos numeros dentro do array
+// let num = [5, 8, 12, 20, 25, 30];
+// let soma = 0;
+// for (let i = 0; i < num.length; i++) {
+//   soma += num[i];
+// }
+// console.log(`A soma dos numeros dentro do array é: ${soma}`);
+
+//18. maior numero dentro do array
+// let num = [5, 8, 12, 20, 25, 30];
+// let maior = num[0];
+// for (let i = 1; i < num.length; i++) {
+//   if (num[i] > maior) {
+//     maior = num[i];
+//   }
+// }
+// console.log(`O maior número dentro do array é: ${maior}`);
+
+// //19.repetir texto
+// let texto = prompt("Digite um texto: ");
+// let vezes = Number(prompt("Digite quantas vezes quer repetir: "));
+// for (let i = 0; i < vezes; i++) {
+//   console.log(texto);
+// }
+
+//20. piramide de asteriscos
+// let linhas = 5;
+// for (let i = 1; i <= linhas; i++) {
+//   console.log("*".repeat(i));
+// }
