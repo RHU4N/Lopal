@@ -169,7 +169,7 @@ function parOuImpar(n = 0){
     return resultado;
 }
 
-//Reescreva as funções 21 a 29 também usando arrow function.
+//30.Reescreva as funções 21 a 29 também usando arrow function.
 const positivoOuNegativoArrow = (n = 0) => {
     let resultado = "";
     if(n > 0){
