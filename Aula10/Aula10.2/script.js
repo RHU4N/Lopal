@@ -70,10 +70,9 @@ let palavras = [
     "amigo", "mundo", "casa", "livro", "feliz", "tempo", "amor", "abrir",
     "saudade", "estudar", "programa", "javascript", "música", "coração"
 ];
-let resultado2 = palavras.filter(palavra => palavra.length >5 );
+let resultado2 = palavras.filter(palavra => palavra.length > 5);
 
 console.table(palavras);
 console.table(resultado2);
 
-
-    
+console.table(de0a10.reverse());
