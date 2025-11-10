@@ -43,3 +43,4 @@ numeros.forEach((num)=>{
 })
 
 console.table(dobro)
+

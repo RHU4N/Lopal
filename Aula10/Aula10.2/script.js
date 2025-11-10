@@ -75,4 +75,5 @@ let resultado2 = palavras.filter(palavra => palavra.length > 5);
 console.table(palavras);
 console.table(resultado2);
 
+
 console.table(de0a10.reverse());
