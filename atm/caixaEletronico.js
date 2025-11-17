@@ -114,7 +114,7 @@ while(i <= 2) {
     console.error("Erro no login:", err.message);
   } finally {
     // finally sempre executa após try/catch; útil para log/limpeza
-    console.log(`Tentativa ${i + 1} finalizada.`);
+    console.log(`Tentativa ${i + 1} finalizada.Faltam ${3 - (i + 1)} tentativas.\n`);
   }
   i++;
 }
