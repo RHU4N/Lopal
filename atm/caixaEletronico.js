@@ -12,8 +12,6 @@ console.log("=== Caixa Eletrônico Simples ===");
 function login(usuario, senha) {
   if (!usuario || !senha) {
     throw new Error("Usuário e senha são obrigatórios.");
-  } else if (typeof usuario !== "string" || typeof senha !== "string") {
-    throw new Error("Usuário e senha devem ser strings.");
   } else if (usuario.length < 5 || senha.length < 5) {
     throw new Error("Usuário e senha devem ter pelo menos 5 caracteres.");
   } else if (!/^\d{3}\.\d{3}\.\d{3}-\d{2}$/.test(usuario)) {
@@ -64,7 +62,7 @@ function operacoesDisponiveis() {
           return; // sai da função e retorna ao loop
         }
 
-        ope = parseInt(entrada, 10);
+        ope = Number(entrada);
 
         // valida intervalo permitido
         if (ope < 0 || ope > 6) {
